@@ -8,6 +8,9 @@ namespace Assets.Scripts.Problem_2_weapon_.StateMAchine
 
         //here state changes to Idle to active
         //player fires the wepon until it  will become empty
+
+        public void EnterState()
+        { }
         
     }
 }
