@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{ADA593CF-99FC-DECB-8178-25A7C4AACCD9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -53,6 +54,7 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Problem-2%28weapon%29\StateMAchine\WEaponIdleState.cs" />
     <Compile Include="Assets\Scripts\Problem-2(weapon)\WepounShoot.cs" />
     <Compile Include="Assets\Scripts\Problem-2(weapon)\Weopon.cs" />
     <Compile Include="Assets\Scripts\Problem-2(weapon)\AddWeopon.cs" />
@@ -60,7 +62,7 @@
     <Compile Include="Assets\Scripts\Problem-1(TileGame)\Block.cs" />
     <Compile Include="Assets\Scripts\Problem-1(TileGame)\GameManager.cs" />
     <Compile Include="Assets\Scripts\Problem-1(TileGame)\Node.cs" />
-    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponIdleState.cs" />
+    <Compile Include="Assets\Scripts\Problem-2%28weapon%29\StateMAchine\WeaponBaseState.cs" />
     <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponActiveState.cs" />
     <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeopanChoosingState.cs" />
   </ItemGroup>

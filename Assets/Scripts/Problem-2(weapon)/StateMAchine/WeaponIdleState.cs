@@ -1,13 +1,20 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 namespace Assets.Scripts.Problem_2_weapon_.StateMAchine
 {
-    public abstract class WeaponIdleState
+    public class WEaponIdleState : WeaponBaseState
     {
-        //this is a base class for weapon
-        //here player loads bullets as per weapon type
 
-        public virtual void enterState()
-        { }
+        //here state changes to Base to Idle
+        //player remain in this state till his magzine is filling
+
+        public override void EnterState(WeaponStateManager weaponStateManager) { }
+        public override void updateState(WeaponStateManager weaponStateManager) 
+        {
+            //if gun's magzine is full then 
+            weaponStateManager.switchState(weaponStateManager.weaponActiveState);
+        }
+        public override void onCollisionEnter(WeaponStateManager weaponStateManager, Collision collision) { }
     }
 }
