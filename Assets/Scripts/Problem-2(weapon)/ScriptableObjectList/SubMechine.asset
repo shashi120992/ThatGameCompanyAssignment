@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5706804cfc30a44cb9bbcb2b479e1d2, type: 3}
+  m_Name: SubMechine
+  m_EditorClassIdentifier: 
+  weoponType: 2
+  Weopons:
+  - {fileID: 11400000, guid: 4954d8801d84aaa4198fca0e8754712c, type: 2}
+  - {fileID: 11400000, guid: fdfa7508bfd41704b9d3fd58666d1230, type: 2}
+  - {fileID: 11400000, guid: 26dbaceaac9d4f6418d2c6011c35b06e, type: 2}
+  - {fileID: 11400000, guid: 101f9ac0b45401f4aab5912d929107e1, type: 2}

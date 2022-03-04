@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5706804cfc30a44cb9bbcb2b479e1d2, type: 3}
+  m_Name: Snipers
+  m_EditorClassIdentifier: 
+  weoponType: 5
+  Weopons:
+  - {fileID: 11400000, guid: 189b97e963bdf6844afc950ff792d583, type: 2}
+  - {fileID: 11400000, guid: f88de69e9800efe4eb87e63f6efb9b38, type: 2}
+  - {fileID: 11400000, guid: 272f9bfa8b456e049bda5105890871c1, type: 2}
+  - {fileID: 11400000, guid: 8366487d8ef44a944a6196b4ba9e35ef, type: 2}

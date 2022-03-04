@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{ADA593CF-99FC-DECB-8178-25A7C4AACCD9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -54,17 +53,21 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Problem-2%28weapon%29\StateMAchine\WEaponIdleState.cs" />
-    <Compile Include="Assets\Scripts\Problem-2(weapon)\WepounShoot.cs" />
-    <Compile Include="Assets\Scripts\Problem-2(weapon)\Weopon.cs" />
-    <Compile Include="Assets\Scripts\Problem-2(weapon)\AddWeopon.cs" />
-    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponStateManager.cs" />
-    <Compile Include="Assets\Scripts\Problem-1(TileGame)\Block.cs" />
-    <Compile Include="Assets\Scripts\Problem-1(TileGame)\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Problem-1(TileGame)\Node.cs" />
-    <Compile Include="Assets\Scripts\Problem-2%28weapon%29\StateMAchine\WeaponBaseState.cs" />
-    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponActiveState.cs" />
     <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeopanChoosingState.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\ScriptableObject\WeoponSO.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponStateManager.cs" />
+    <Compile Include="Assets\Scripts\Problem-1(TileGame)\Node.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponBaseState.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WeaponActiveState.cs" />
+    <Compile Include="Assets\Scripts\Problem-1(TileGame)\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Problem-1(TileGame)\Block.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\StateMAchine\WEaponIdleState.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\ScriptableObjectList\WeaponSOList.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\PlayerServices\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\PlayerServices\PlayerService.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\PlayerServices\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\PlayerServices\PlayerView.cs" />
+    <Compile Include="Assets\Scripts\Problem-2(weapon)\SingleTon\MonoSingleTon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

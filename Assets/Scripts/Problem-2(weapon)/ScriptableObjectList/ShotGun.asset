@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5706804cfc30a44cb9bbcb2b479e1d2, type: 3}
+  m_Name: ShotGun
+  m_EditorClassIdentifier: 
+  weoponType: 4
+  Weopons:
+  - {fileID: 11400000, guid: 0532fc5db36e5594d93bfdcad74197bd, type: 2}
+  - {fileID: 11400000, guid: 31d41399d19c5aa40b7513222fc93a4d, type: 2}
+  - {fileID: 11400000, guid: edfc6810969b4b44181fd2ffc36a8365, type: 2}
+  - {fileID: 11400000, guid: c7e56ea1b900ecf43a9c5448fc313a8c, type: 2}
